@@ -1,0 +1,5 @@
+CREATE TABLE USERS (
+  id BIGINT NOT NULL AUTO_INCREMENT primary key,
+  name VARCHAR(255),
+  content VARCHAR(255)
+);

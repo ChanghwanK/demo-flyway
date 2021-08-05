@@ -1,0 +1,6 @@
+CREATE TABLE BOOKS (
+  id BIGINT NOT NULL AUTO_INCREMENT primary key,
+  name VARCHAR(255),
+  content VARCHAR(255),
+  author VARCHAR(255)
+);
